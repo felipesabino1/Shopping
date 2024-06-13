@@ -1,6 +1,6 @@
 package shopping;
-//estratégia utilizada para aplicar desconto com base na quantidade de itens
 
+//estratégia utilizada para aplicar desconto com base na quantidade de itens
 public class QuantityDiscount implements DiscountStrategy {
     private int minQuantity;
     private double discountPercentage;
